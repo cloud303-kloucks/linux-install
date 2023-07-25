@@ -44,7 +44,8 @@ def main():
     oh_my_zsh_install_command = 'sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"'
     run_command(oh_my_zsh_install_command)
 
-    
+    reboot = "sudo reboot"
+    run_command(reboot)
 
 
 
